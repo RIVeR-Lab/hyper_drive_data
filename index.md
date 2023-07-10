@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "SLURP!"
+description: "HYPER DRIVE"
 permalink: /
 ---
 
@@ -12,79 +12,58 @@ permalink: /
   <meta charset="UTF-8">
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
   <!--<link rel="stylesheet" href="style.css"> -->
-  <title>SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing</title>
+  <title><b>Hyper-Drive</b>: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments</title>
 </head>
 <body>
   <div class="header-adder">
     <div class="title_set">
-      <h1>SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing</h1>
+      <h1 style="text-align: center;"><strong>Hyper-Drive</strong>: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments</h1>
     </div>
     <div class="names">
-      <p><strong><a href="https://nhanson.io/">Nathaniel Hanson<sup>1* </sup></a>, Wesley Lewis<sup>2*</sup>, <a href="https://kpputhuveetil.github.io/" >Kavya Puthuveetil<sup>2*</sup></a>, Donelle Furline<sup>1</sup>, <a href="https://akhilpadmanabha.github.io/">Akhil Padmanabha<sup>2</sup></a>, <a href="https://www.tpadir.info/">Taşkin Padir<sup>1</sup> </a>, <a href="https://zackory.com/">Zackory Erickson<sup>2</sup></a></strong></p>
-      <p style="text-align: center;"><strong>Northeastern University<sup>1</sup>, Carnegie Mellon<sup>2</sup></strong></p></div>
+      <p style="text-align: center;"><strong><a href="https://nhanson.io/">Nathaniel Hanson<sup>1*</sup></a>, Benjamin Pyatski<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Samuel Hibbard<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Charles DiMarzio<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Taşkin Padir<sup>1</sup></a></strong></p>
+      <p style="text-align: center;"><strong>Institute for Experiential Robotics<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup></strong></p>
+      <p style="text-align: center;"><strong>Northeastern University, Boston, MA, USA</strong></p>
+      </div>
   </div>
 
   <div>
-    <div style="position:relative;padding-top:56.25%;">
-      <iframe src="https://www.youtube.com/embed/EFyeUmdglbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    <div style="position:relative;padding-top:0%;">
+      <figure>
+      <img src="images/mast_field_studies.png" alt="Warthog in the field">
+        <figcaption>
+            Hyperdrive system mounted to Clearpath robotics Warthog embarking on a field data collection.
+        </figcaption>
+  </figure>
     </div>
   </div>
   <h2>Abstract</h2>
-  <p>Liquids and granular media are pervasive
-  throughout human environments. Their free-flowing nature
-  causes people to constrain them into containers. We do so
-  with thousands of different types of containers made out
-  of different materials with varying sizes, shapes, and colors.
-  In this work, we present a state-of-the-art sensing technique
-  for robots to perceive what liquid is inside of an unknown
-  container. We do so by integrating Visible to Near Infrared
-  (VNIR) reflectance spectroscopy into a robot's end effector.
-  We introduce a hierarchical model for inferring the material
-  classes of both containers and internal contents given spectral
-  measurements from two integrated spectrometers. To train
-  these inference models, we capture and open source a dataset
-  of spectral measurements from over 180 different combinations
-  of containers and liquids. Our technique demonstrates over
-  85% accuracy in identifying 13 different liquids and granular
-  media contained within 13 different containers. The sensitivity
-  of our spectral readings allow our model to also identify the
-  material composition of the containers themselves with 96%
-  accuracy. Overall, VNIR spectroscopy presents a promising
-  method to give household robots a general-purpose ability to
-  infer the liquids inside of containers, without needing to open
-  or manipulate the containers.
+  <p>Towards automated analysis of large environments, hyperspectral sensors must be adapted into a format where they can be operated from mobile robots. In this work, we introduce a first of its kind system architecture with snapshot hyperspectral cameras and point spectrometers to efficiently generate composite datacubes from robotic base. Our system collects and registers datacubes spanning the visible to shortwave infrared (660-1700 nm) spectrum while simultaneously capturing the ambient solar spectrum reflected off a white reference tile. We collect and disseminate a large data set of 500 labeled datacubes from on-road and off-road terrain compliant with the ATLAS ontology to further the integration and demonstration of hyperspectral imaging (HSI) as beneficial in terrain class separability. Our analysis of this data demonstrates HSI is a significant opportunity to increase understanding of scene composition from a robot-centric context.
   </p>
  
 <div style="text-align: center;">
   <figure>
   
-      <img src="images/slurp_cad_rev2.png" alt="Slurp Gripper">
+      <img src="images/system_architecture_mast_WHISPERS.png" alt="HYPER DRIVE System Architecture">
     <figcaption>
-    (Left) Real-world assembly of the SLURP gripper. (Right)
-Exploded CAD rendering of SLURP gripper paddle showing inte-
-grated visible to near infrared spectrometers and active illumination
-associated physical gripper assembly.
+    Hyper-Drive system mounted to off-road mobile robot, with sample data representations of white reference target from a) the Visible to Near Infrared (VNIR) hyperspectral camera b) Shortwave Infrared hyperspectral camera c) High resolution RGB camera d) Combined point spectrometers.
     </figcaption>
   </figure>
 </div>
 
   <p>
-    <a href="https://github.com/RIVeR-Lab/slurp_grasping/tree/main">Link to the Github</a>
+    <a href="https://github.com/RIVeR-Lab/hyper_drive_data/tree/main">Link to the Github</a>
   </p>
 </body>
 </html>
-∗These authors contributed equally
-### [ArXiv Link](https://arxiv.org/abs/2210.04941)
+### [ArXiv Link Coming Soon!]()
 ### Bibtex
+We hope this data benefits the integration of autonomy and hyperspectral imaging. If you use any of the data or methods from this project, please include this citation in your bibliography.
  ```
-@misc{https://doi.org/10.48550/arxiv.2210.04941,
-  doi = {10.48550/ARXIV.2210.04941},
-  url = {https://arxiv.org/abs/2210.04941},
-  author = {Hanson, Nathaniel and Lewis, Wesley and Puthuveetil, Kavya and Furline, Donelle and Padmanabha, Akhil and Padır, Taşkın and Erickson, Zackory},
+@misc{hanson2023hyperdrive,
+  author = {Hanson, Nathaniel and Pyatski, Benjamin and Hibbard, Samuel and DiMarzio, Charles and Padır, Taşkın},
   keywords = {Robotics (cs.RO), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering},
-  title = {SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing},
-  publisher = {arXiv},
-  year = {2022},
+  title = {Hyper-Drive: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments},
+  year = {2023},
   copyright = {Creative Commons Attribution 4.0 International}
 }
 

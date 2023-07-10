@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Build Instructions
-Instructions for building the SLURP Gripper
+<!-- Instructions for building the SLURP Gripper
 
 <p><IMG SRC="images/Other_Gripper_Video_V1_AdobeExpress.gif"></p>
 {: .highlight }
@@ -70,4 +70,4 @@ Instructions for building the SLURP Gripper
 17. Attach the fiber optic patch cable from the gripper to the box by screwing on the SMA connectors.<IMG SRC="images/assembly_final.png">
 
 ## Final instructions
-Upload the Arduino sketches from the GitHub repo onto the gripper and ToF Arduino Nano devices. Connect each of the Arduino Nanos and the Mantispectra boards to the computer with USB cables.
+Upload the Arduino sketches from the GitHub repo onto the gripper and ToF Arduino Nano devices. Connect each of the Arduino Nanos and the Mantispectra boards to the computer with USB cables. -->

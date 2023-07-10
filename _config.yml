@@ -1,7 +1,7 @@
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
-title: SLURP!
+title: HYPER DRIVE
 
-callouts_level: quiet # or loud
+callouts_level: loud
 callouts:
   highlight:
     color: yellow
@@ -19,12 +19,12 @@ callouts:
     color: red
 
 aux_links:
-  "Slurp! on GitHub":
-    - "https://github.com/RIVeR-Lab/slurp_grasping/tree/main"
+  "HYPER DRIVE on GitHub":
+    - "https://github.com/RIVeR-Lab/hyper_drive_data/tree/main"
 
 nav_external_links:
-  - title: Slurp! on GitHub
-    url: https://github.com/RIVeR-Lab/slurp_grasping/tree/main
+  - title: HYPER DRIVE on GitHub
+    url: https://github.com/RIVeR-Lab/hyper_drive_data/tree/main
 
 back_to_top: true
 back_to_top_text: "Back to top"
