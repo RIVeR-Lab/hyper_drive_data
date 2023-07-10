@@ -1,0 +1,30 @@
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
+title: SLURP!
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+aux_links:
+  "Slurp! on GitHub":
+    - "https://github.com/RIVeR-Lab/slurp_grasping/tree/main"
+
+nav_external_links:
+  - title: Slurp! on GitHub
+    url: https://github.com/RIVeR-Lab/slurp_grasping/tree/main
+
+back_to_top: true
+back_to_top_text: "Back to top"
