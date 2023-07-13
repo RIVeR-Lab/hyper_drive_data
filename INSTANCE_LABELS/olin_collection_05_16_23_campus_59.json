@@ -1,0 +1,8 @@
+{
+    "season": "spring",
+    "weather": "clear",
+    "time_of_day": "day",
+    "biome": {
+        "urban": "college_campus"
+    }
+}

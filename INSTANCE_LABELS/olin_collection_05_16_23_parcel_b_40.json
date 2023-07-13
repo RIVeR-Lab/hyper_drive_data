@@ -1,0 +1,8 @@
+{
+    "season": "spring",
+    "weather": "clear",
+    "time_of_day": "dawn",
+    "biome": {
+        "forest": "temperate"
+    }
+}
