@@ -1,0 +1,14 @@
+beautifulsoup4==4.12.2
+cvbridge3==1.1
+matplotlib==3.1.2
+numba==0.55.2
+numpy==1.17.4
+opencv_python_headless==4.7.0.72
+Pillow==10.0.0
+PySimpleGUI==4.60.5
+rospkg==1.5.0
+rospkg_modules==1.4.0
+rospy==1.15.15
+scipy==1.11.1
+seaborn==0.11.2
+sensor_msgs==1.13.1
