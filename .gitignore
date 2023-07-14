@@ -1,0 +1,7 @@
+_site/**
+.ipynb_checkpoints/**
+Gemfile
+Gemfile.lock
+RGB_REGISTERED/*
+HSI_REGISTERED/*
+SEGMENTATIONS_REGISTERED/*
