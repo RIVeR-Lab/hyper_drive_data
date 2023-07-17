@@ -67,6 +67,3 @@ The Jupyter Notebook [`Register_HSI.ipynb`](https://github.com/RIVeR-Lab/hyper_d
 ### Regenerating System Homographies
 
 Registering the hyperspectral cameras is a challenging process, as their resolution is an order of magnitude less than the RGB camera. The folder `calibration` contains images from all three cameras with a precision checkerboard present. We used [keypointgui](https://github.com/Kitware/keypointgui) to manually find corresponding features. The two output homographies are saved as `.txt` files in the `calibration` folder.
-
-## Acknowledgement
-
