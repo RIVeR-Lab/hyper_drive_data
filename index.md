@@ -12,12 +12,13 @@ permalink: /
   <meta charset="UTF-8">
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
   <!--<link rel="stylesheet" href="style.css"> -->
-  <title><b>Hyper-Drive</b>: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments</title>
+  <title><b>Hyper-Drive</b>: Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments</title>
 </head>
 <body>
   <div class="header-adder">
     <div class="title_set">
-      <h1 style="text-align: center;"><strong>Hyper-Drive</strong>: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments</h1>
+      <h1 style="text-align: center;"><strong>Hyper-Drive</strong> Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments
+      </h1>
     </div>
     <div class="names">
       <p style="text-align: center;"><strong><a href="https://nhanson.io/">Nathaniel Hanson<sup>1*</sup></a>, Benjamin Pyatski<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Samuel Hibbard<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Charles DiMarzio<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Taşkin Padir<sup>1</sup></a></strong></p>
@@ -62,10 +63,29 @@ We hope this data benefits the integration of autonomy and hyperspectral imaging
 @misc{hanson2023hyperdrive,
   author = {Hanson, Nathaniel and Pyatski, Benjamin and Hibbard, Samuel and DiMarzio, Charles and Padır, Taşkın},
   keywords = {Robotics (cs.RO), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering},
-  title = {Hyper-Drive: System Architecture and Data Sets for Visible-Short Wave Infrared Hyperspectral Imaging in Unstructured Environments},
+  title = {Hyper-Drive: Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments},
   year = {2023},
   copyright = {Creative Commons Attribution 4.0 International}
 }
 
 ```
 Correspondence: hanson [.] n [@] northeastern [.] edu
+
+
+### Acknowledgements
+Many thanks to the following collaborators for helping to organize and label this data:
+* James Tukpah
+* Austin Allison
+* Rania Alshawabkeh
+* Muneer Lalji
+
+
+Funding Attribution:
+```
+Research was sponsored by the United States Army Core of Engineers (USACE) Engineer Research and Development Center (ERDC)
+Geospatial Research Laboratory (GRL) and was accomplished under 
+Cooperative Agreement Federal Award Identification Number (FAIN) W9132V-22-2-0001. 
+The views and conclusions contained in this document are those of the authors 
+and should not be interpreted as representing the official policies, either expressed or implied,
+of USACE EDRC GRL or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein.
+```

@@ -2,7 +2,9 @@
 title: Data Set
 layout: default
 ---
-# Raw Data
+# Data Set
+
+## Raw Data
 
 The raw data from each of the collections onboard the robot was collected as a ROS bagfile. These files are very large (10+ GB) and contain time synchronized messages from the cameras, onboard fiber optic inertial measurement unit (IMU), and point spectrometers. Due to the massive amount of data, and the enormous human effort required to segment these 12,874 images, we have left the majority of unlabeled, but available to the research community.
 
@@ -26,7 +28,7 @@ After downloading a bag file, start a `roscore` instance and begin the playback 
 {: .note }
 These data cubes exist currently as digital count measurements. They will be converted to reflectance in the near future via an in-development method that leverages the included spectrometer measurement.
 
-### Labeled data
+## Labeled data
 
 504 images evenly distributed from each of the above bag files has been extracted and labeled.
 
@@ -60,4 +62,11 @@ For the purposes of data compression, the data is stored in an unregistered form
 {: .highlight}
 The registration process generates datacubes that are ~80 MB each. Altogether, the full labeled dataset is ~40 GB. Make sure you have enough free space locally before executing the script!
 
-TBD
+The Jupyter Notebook [`Register_HSI.ipynb`](https://github.com/RIVeR-Lab/hyper_drive_data/blob/main/Register_HSI.ipynb) contains the functions needed to process the two hyperspectral datacubes into a single datacube. This file also appropriately crops the high-res RGB image and segmentation labels.
+
+### Regenerating System Homographies
+
+Registering the hyperspectral cameras is a challenging process, as their resolution is an order of magnitude less than the RGB camera. The folder `calibration` contains images from all three cameras with a precision checkerboard present. We used [keypointgui](https://github.com/Kitware/keypointgui) to manually find corresponding features. The two output homographies are saved as `.txt` files in the `calibration` folder.
+
+## Acknowledgement
+
