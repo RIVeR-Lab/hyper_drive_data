@@ -56,17 +56,21 @@ permalink: /
   </p>
 </body>
 </html>
-### [ArXiv Link Coming Soon!]()
+### [Paper on ArXiv](https://arxiv.org/abs/2308.08058)
 ### Bibtex
 We hope this data benefits the integration of autonomy and hyperspectral imaging. If you use any of the data or methods from this project, please include this citation in your bibliography.
  ```
-@misc{hanson2023hyperdrive,
-  author = {Hanson, Nathaniel and Pyatski, Benjamin and Hibbard, Samuel and DiMarzio, Charles and Padır, Taşkın},
-  keywords = {Robotics (cs.RO), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering},
-  title = {Hyper-Drive: Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments},
-  year = {2023},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+@inproceedings{hanson2023hyperdrive,
+  author={Hanson, Nathaniel and Pyatski, Benjamin and Hibbard, Samuel and DiMarzio, Charles and Padır, Taşkın},
+  booktitle={2023 13th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS)}, 
+  title={Hyper-Drive: Visible-Short Wave Infrared Hyperspectral Imaging Datasets for Robots in Unstructured Environments}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Robot vision systems;Systems architecture;Ontologies;Signal processing;Cameras;Mobile robots;Hyperspectral imaging;hyperspectral imaging;robot spectroscopy;multimodal sensing;terrain segmentation},
+  doi={10.1109/WHISPERS61460.2023.10430802}}
+
 
 ```
 Correspondence: hanson [.] n [@] northeastern [.] edu
