@@ -1,0 +1,18 @@
+{
+    "Dirt": 1,
+    "Rock/Gravel": 2,
+    "Paved": 3,
+    "Rock": 4,
+    "Grass": 5,
+    "Vegetation": 6,
+    "Sky": 7,
+    "Clouds": 8,
+    "Vehicle": 9,
+    "Infrastructure": 10,
+    "Directional": 11,
+    "Debris (leaves/mulch)": 12,
+    "Concrete": 13,
+    "Other": 14,
+    "Person/Animal": 15,
+    "Water": 16
+}
