@@ -32,6 +32,8 @@ These data cubes exist currently as digital count measurements. They will be con
 
 504 images evenly distributed from each of the above bag files has been extracted and labeled.
 
+The file `label_map.json` contains the mapping from semantic label to numeric value of the mask area. Pixels with label 0 are unlabeled.
+
 The directory structure for the labeled data follows a structured format:
 
 ```
