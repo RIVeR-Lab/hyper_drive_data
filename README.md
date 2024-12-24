@@ -1,10 +1,13 @@
 # HYPER DRIVE
 
-![Hyper Drive robot frollick](./img/hyper_drive_website_teaser.png)
+![](./img/hyper_drive_website_teaser.png)
 
 
 ### TLDR;
 For more detailed instruction, please see the associated [project website](https://river-lab.github.io/hyper_drive_data/) and [manuscript](https://arxiv.org/abs/2308.08058).
+
+> [!TIP]
+> Hyper-Drive is now available on [Kaggle](https://www.kaggle.com/datasets/nathanielhanson3/hyper-drive-hyperspectral-driving-dataset)!
 
 We welcome the use of this dataset and code in your work. If you do use our code/data, please include the following citation:
 ```
